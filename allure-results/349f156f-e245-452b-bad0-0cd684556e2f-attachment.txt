@@ -1,0 +1,4 @@
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @12-11-2024 06:32:15.0417 AM
+[ReportManager] Actual response status code "200" is successful (Between 200 and 299). @12-11-2024 06:32:15.0418 AM
+[ReportManager] Handle response; POST | Response Time: 870ms. @12-11-2024 06:32:15.0983 AM
+[ReportManager] Get response jsonvalue; token. @12-11-2024 06:32:16.0056 AM

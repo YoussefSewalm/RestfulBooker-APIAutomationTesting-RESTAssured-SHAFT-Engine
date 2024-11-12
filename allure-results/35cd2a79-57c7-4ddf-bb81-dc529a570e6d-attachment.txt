@@ -1,0 +1,34 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 2' test cases in the current suite                                        
+                             Test Method: 'using_SHAFT_Engine.CreatingThenDeleteBooking.CreatingThenDeletingBooking'                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @12-11-2024 06:32:16.0839 AM
+[ReportManager] Actual response status code "200" matches the expected one "200". @12-11-2024 06:32:16.0842 AM
+[ReportManager] Handle response; POST | Target Status Code: 200 | Response Time: 729ms. @12-11-2024 06:32:16.0856 AM
+[ReportManager] Get response jsonvalue; bookingid. @12-11-2024 06:32:16.0858 AM
+[ReportManager] Get response jsonvalue; booking.firstname. @12-11-2024 06:32:16.0860 AM
+[ReportManager] Get response jsonvalue; booking.lastname. @12-11-2024 06:32:16.0861 AM
+[ReportManager] Get response jsonvalue; booking.totalprice. @12-11-2024 06:32:16.0863 AM
+[ReportManager] Get response jsonvalue; booking.depositpaid. @12-11-2024 06:32:16.0864 AM
+[ReportManager] Get response jsonvalue; booking.bookingdates.checkin. @12-11-2024 06:32:16.0865 AM
+[ReportManager] Get response jsonvalue; booking.bookingdates.checkout. @12-11-2024 06:32:16.0866 AM
+[ReportManager] Get response jsonvalue; booking.additionalneeds. @12-11-2024 06:32:16.0867 AM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @12-11-2024 06:32:17.0655 AM
+[ReportManager] Actual response status code "200" matches the expected one "200". @12-11-2024 06:32:17.0655 AM
+[ReportManager] Handle response; GET | Target Status Code: 200 | Response Time: 763ms | URL Arguments: firstname=youssef170&lastname=alaa. @12-11-2024 06:32:17.0673 AM
+[ReportManager] Get response jsonvalue; [0].bookingid. @12-11-2024 06:32:17.0675 AM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @12-11-2024 06:32:18.0433 AM
+[ReportManager] Actual response status code "200" is successful (Between 200 and 299). @12-11-2024 06:32:18.0434 AM
+[ReportManager] Handle response; GET | Response Time: 746ms. @12-11-2024 06:32:18.0445 AM
+[ReportManager] Get response jsonvalue; firstname. @12-11-2024 06:32:18.0446 AM
+[ReportManager] Get response jsonvalue; lastname. @12-11-2024 06:32:18.0447 AM
+[ReportManager] Get response jsonvalue; totalprice. @12-11-2024 06:32:18.0447 AM
+[ReportManager] Get response jsonvalue; depositpaid. @12-11-2024 06:32:18.0448 AM
+[ReportManager] Get response jsonvalue; bookingdates.checkin. @12-11-2024 06:32:18.0449 AM
+[ReportManager] Get response jsonvalue; bookingdates.checkout. @12-11-2024 06:32:18.0450 AM
+[ReportManager] Get response jsonvalue; additionalneeds. @12-11-2024 06:32:18.0450 AM
+[ReportManager] Response status code: "201", status line: "HTTP/1.1 201 Created" @12-11-2024 06:32:19.0192 AM
+[ReportManager] Actual response status code "201" matches the expected one "201". @12-11-2024 06:32:19.0192 AM
+[ReportManager] Handle response; DELETE | Target Status Code: 201 | Response Time: 730ms. @12-11-2024 06:32:19.0193 AM

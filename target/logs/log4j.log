@@ -1,0 +1,833 @@
+[INFO ] 2024-11-12 06:32:12.809 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.4.20241024[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-12 06:32:12.815 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-11-12 06:32:12.836 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-11-12 06:32:12.849 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-11-12 06:32:12.849 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-11-12 06:32:13.078 [main] Utils - [TestNG] Running:
+  E:\Mohamed Tarek Embedded and Software Testing Diploma\Java Testing Workspace\SHAFTEngineTest\using_SHAFT_Engine\testng.xml
+
+[INFO ] 2024-11-12 06:32:13.128 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-12 06:32:13.170 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-11-12 06:32:13.271 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting execution of setup and getting token configuration method                                       
+                                       'using_SHAFT_Engine.CreatingThenDeleteBooking.SetupAndGettingToken'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-12 06:32:13.754 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2024-11-12 06:32:14.298 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:14.300 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-12 06:32:14.301 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-12 06:32:14.501 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-11-12 06:32:14.534 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:14.588 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-11-12 06:32:14.615 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:14.948 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-12 06:32:14.950 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-12 06:32:14.951 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:14.951 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:14.951 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-11-12 06:32:14.951 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-12 06:32:14.952 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-12 06:32:14.953 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-11-12 06:32:14.953 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:14.953 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-11-12 06:32:14.953 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-12 06:32:14.953 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:14.953 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-11-12 06:32:14.953 [] headers - >> Accept: */*
+[DEBUG] 2024-11-12 06:32:14.953 [] headers - >> Host: api.github.com
+[DEBUG] 2024-11-12 06:32:14.953 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-12 06:32:14.953 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-11-12 06:32:14.953 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-12 06:32:15.200 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.201 [] wire -  << "Date: Tue, 12 Nov 2024 04:32:15 GMT[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "ETag: W/"e4e219c9681128a40033a958333db6680eb9149ed827998b6f7b01a71240a513"[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "Last-Modified: Thu, 24 Oct 2024 15:00:43 GMT[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.202 [] wire -  << "X-RateLimit-Remaining: 57[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.203 [] wire -  << "X-RateLimit-Reset: 1731389229[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.203 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.203 [] wire -  << "X-RateLimit-Used: 3[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.203 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.203 [] wire -  << "Content-Length: 1988[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.203 [] wire -  << "X-GitHub-Request-Id: 5415:2CC830:DE73BF:E2904C:6732DA4E[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.203 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.204 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Date: Tue, 12 Nov 2024 04:32:15 GMT
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << ETag: W/"e4e219c9681128a40033a958333db6680eb9149ed827998b6f7b01a71240a513"
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Last-Modified: Thu, 24 Oct 2024 15:00:43 GMT
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << Server: github.com
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << X-RateLimit-Remaining: 57
+[DEBUG] 2024-11-12 06:32:15.204 [] headers - << X-RateLimit-Reset: 1731389229
+[DEBUG] 2024-11-12 06:32:15.205 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-11-12 06:32:15.205 [] headers - << X-RateLimit-Used: 3
+[DEBUG] 2024-11-12 06:32:15.205 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-11-12 06:32:15.205 [] headers - << Content-Length: 1988
+[DEBUG] 2024-11-12 06:32:15.205 [] headers - << X-GitHub-Request-Id: 5415:2CC830:DE73BF:E2904C:6732DA4E
+[DEBUG] 2024-11-12 06:32:15.215 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:15.215 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Yko[0xe3][0xb6][0x12][0xfd]+[0x82][0x8b][0xe2][0x2][0x8b][0x95],[0xd9][0xf2]#[0x2][0x8a][0xde]$vw[0x8b]n[0xb2][0xed]6Eq[0xfb][0x80]AI[0xb4]DG[0x12][0xb5]$[0xe5][0xac][0x1b][0xec][0xbf][0x87]"
+[DEBUG] 2024-11-12 06:32:15.216 [] wire -  << "[0x94][0x1c][0xc7][0x86][0x9b]x#[0xed][0x87]8[0xb4]l[0xcf][0xc][0xe7]q[0xe6]px[0xdf][0xab]D[0xd6][0xb]z[0xa9]R[0xa5][0xc][0xfa]}R2'a*[0xad]B'[0xe2]y_[0xd0][0x92][0xcb][0xfe][0xaf])Y[0xaa][0xb7][0xbf][0xf4]}{[0xfe][0xc3][0xcd]b~[0xfd][0xe6][0xc7][0xeb]9>[0xca]([0x91]T[0xf6][0xbd][0xa9]7[0x19][0xb9]#[0xdf][0xed][0xbd][0xee][0x11])[0xa9][0x92][0x8b][0xee]d[0xf6]k[0x89][0x10]][0x95][0x19]'[0xf1][0x81][0xe8][0xfa][0xa1]|[0xb1][0xc9][0x8d][0xf8][0xfb][0xef][0xb][0x92][0xd3][0xd7][0x19][0x9]i[0xf6][0x19][0xba]R[0x95]g[0x7][0x9a][0x1e]9[0xe5]iw([0x92][0xf4][0xa7][0x8e][0xef][0xc][0xdc][0x81][0xef][0xe1][0xf][0xe2]X[0xdc][0xb][0x1e][0xbc][0x4]'U*[0xe5][0xa2][0x17][0xdc][0xf7]2[0x9e][0xb0][0x2][0xde][0xaf][0x85][0xdb]$R[0x8c][0x17][0xf2][0xcf][0x90][0xab][0xbf][0x9b][0x9f][0xf9][0xde][0xf4]l:[0x98][0xe]^[0xf7][\n]"
+[DEBUG] 2024-11-12 06:32:15.216 [] wire -  << "[0x1e][0xd3][0x85][0x96][0xd4][0xbb][0x9a]][0x8d][0xc9][0xcf][0xdc][0xeb][0xd9][0xdc][0x93]l[0xde][0xcf]~[0xfc]N[0xfb]~M[0x14][0x11][0x87][0xbe]7[0xf][0xb7][0xe][0xaa]$[0x15][0x11]/[0x14]-[0x94][0x9]/+[0xfa][0xde]h8[0x9e]~[0xbf][0xfe]N[0xdb][0x99][0x88]F[0x86]Q[0xa3]}[0xfe]Tnha[0xb2][0xbf]o[0xfa][0xb7][0xa3][0xb][0x18][0xff][0xed]h[0xf6][0xac][0x13]IY[0x1e][0xfe][0x18][0xbf]Y[0xf2],[0xe3]w[0x90]{[0xb8][0x8d][0xfd][0xb4]|Ru[0xff]A[0xc8][0x83]@V$[0xed][0x5]B[0xc8]}[0x9f][0xab][0x94][0xc2][0xc7][0xd8][0xba][0xce][0x93][0x84][0xc9][0xe7][0xb2][0xfd]iS[0x8d][0x80]{8Q*[0xc4]V[0x8b][0x94][0x8][0x97][0xa0][0x87]y~P[0x96]O[0xb]mD[0xc0][0xd8][0xbb][0x2]v[0xde][0x9b]*6[0xb2][0xab]PF[0x82][0x95]&[0xcb][0xda]8dO[0x10][0x4]s[0x91][0x90][0x82][0xfd]CZ[0xb][0x86] [0x9]y[0x6]v[0xda][0x18]h[0x4]@[0x10]]#[0xd5][I[0xaa]%[0xdc][0xf7]K[0xc1][0xd6]$[0xda]h7[\n]"
+[DEBUG] 2024-11-12 06:32:15.216 [] wire -  << "[0x1a]Q[0xb6]F[0x8c][0xda]K?[0x10][0x5][0xe1]jSR[0x14][0xdf][0x5]Wx[0xa3][0xe3][0xbc]X3z[0xb7]h[0x1e][0x97]U[0x98][0xb1]H[0x87][0x92])[0xba] q[0xae][0xe1]cI2I??F[0x88][0xf][0xf3][0xc5][0xed][0xdd][0xec][0xfd][0xe5][0x1b]z3[0x96][0xfe]O[0xde]o[0xf2]J[0x8b]&[0xc9]B[0xe3][0x1c][0xc4][0x1f][0x0][0x14]r.[0xa1]j[0x1]H[0xc8][0x99]b2[0xc5]7r[0x2][0xd1][0x90]y[0xf4][0xfb][0xb1]@Ch[0x14][0xbf][0xee][0x95][0x82]6[0xcd][0xe0][0xe1]Q$(Q[0xf0][0x10][0xc1][0xb7]z[0x1a][0x9]m[0xcf][0xb5][0x7][0xfe][0x8d]7[\n]"
+[DEBUG] 2024-11-12 06:32:15.216 [] wire -  << "\7[0xf0][0xfc]? [0xda][0xec]E[0xa6][0xff][0xfa]-[0xa8][0xbf][0xd5][0xe0][0xf0][0xe7][0xdf]z[0x3]"$[0xd9]!2[0x9f][0xde][0xb2][0x9a][0xdf][0x1f][0xc2][0xf3]?[0xac]l%[0xb6][0xf9][0xfd][0xa1][0xd8][0x90][0xc7][0x1b][0xec][0xfe][0x9b]o[0xac][0xdf]S[0xa2][0xfe]#[0xad][0xcb][0x94][0x14][0x9][0x8d][0xff]*^Y[0x1f](bG[0xad][0xaa][0x4][0xe4][0xc6][0xd4][\n]"
+[DEBUG] 2024-11-12 06:32:15.216 [] wire -  << "7[0xd6][0xaf]xJB[0xbc]0j[0xb1][0xc2][0xda][0xf6][0xe3][0xe7][0xda]NYeY[0xdf][0x9b][0xc][0x86]Z[0xea]E[0x95][0x97][0x16][0x82][0xe8]$[0x9c]'[0x19]u"[0xb1])[0x15]w[0x14]+n[0x3][0xfd]b-[0x5][0xcf]-[0xcf][0xf1]|[0xc7][0xb3][0x14][0xd7][0xab][0x91][0xe3][0x1a][0xed]1-i[0x11][0x13][0x80][0xf7]K[0xb4][0x8f][0x1f][0xb4][0xa3][0x80][0x9d][\r][0xc9][0xb3]@[0x16][0xe4][0x96][0xea]U[0xad]t[0xe0][0xc][0xb4][0xc6][0x81]3[0xec]@[0xdd]hO[0x1d])I[0x94]R[0x7][0xbd][0x14][0xcd]4[0xd1][0xff][0xfd]U`^m[0xcf][0x19][0xd8]H[0x8f][0x7][0x13][0x86][0xf5][0xbe]a[0x8c][0xdf][0xc5][0xbe][0x87][0xde][0xa9][0x86]D\[0xd0][0xaf]f[0x85]{[0xaa][0x15]2[[0xfa][0xab][0x81][0xcd][0xf2]r[0x17][0x95][0x8e]]28;[0xd5][0x98][0xaf][0x18][0x97][0xc1]T[0x1b]![0xa8],i[0xa4][0xac]%[0x17][0x11][0xbd]Lit{C?[0xa9][0xdf][0x89][0xbc][0x1][0xc4][0xc6][0x97][0x1c]m6R[0xd9][0xa6]}[0xf1][\r][0x7]Z][0xc][0xa2][0x15][0x82][0x10][0xdf]P[0xb4][0xf4][0xe][0x84][0x9a][0x8a]68[0x8a][0xac][0xb6][\n]"
+[DEBUG] 2024-11-12 06:32:15.216 [] wire -  << "zg[0xa9][0x8e]$[0xfb]{![0x92][0xe0][0xf1][0x5][0xab][0xf2][0xf4][0xa3][0xb3]][0x6][0xdb][0x85][0xbd][0x2]![0xac][0xf3][0x16][0x84]V[0xd7][0xc]j[0x18][0xab]NP[0xc3][0xdf]a[0x16][0xe3]NTEU[0x1e]R[0x11]l[0x17]v[0xc9]"[0xae][0xc9]*[0x1a][0x11][0x15][0xb5][0x11][0x13][0xc7][0x9b][0xd6]%[0x8c][0xd5]Y[0x17]%[0xec][0xef]J[0xf8][0xa8][0x11];[0x7]|[0x5][0xdd][0xbb][0xc2]=[0xaa][[0xc7][0x1b][0xa1]7[0xa0][0xdd][0xbd][0xf6][0xe1][0xd1]J[0xcd][0x9][0x18][0x93]Sf[0x15][0xb0]T[0x6][0xe6][0x9d][0x9d][0x94][0x89]]?[0xa9]m[0x19]:[0x3]g[0xa4]3A/[0xc6][0xed][0xf1]|8[0xd1][0x9]y[0x8d][0xc]G*[0xe6] lVs[0x10]B/[0x3]l[0xb6]n[0x8e]C[0x3][0x7][0x87][0xcd]1[0xa9][0x90][0xdb][0x81]ym[0xb6]5t[0x86][0x8e]k[0xaf][0xa0]R[0xef]M[0xbf][0xf3][0xcc][0xbb][0xd6][0xfd][0xd1][0xdf]oX[0x92][0x17]D[0xf3]9'[0xc2]^[0x5][0xc9][0x82][0xe6][0xbf][0xdd]0"[0xd4][0xbb]]{[0xfe][0xb1][0xd7]]GW[0x1d],s[0x9d]q'[0x99]o`@[0xe3]J[0xed]e[0xaa][0x8] [0xd3][0x9c][0xe9][0xdb][0xbb][0xdc][0xdf]g[0x4][0xab][0xaa]`*0[0xaf]v[0x88]l6)=r<[0xaf][0xde][0x91]Yy[0x1d][0xf8][0xd9]$[0xd2]o%[0xa0][0x98]Z[0x1f][0xe6][0xe7][0xb3][0xab][0xb9][0x93][0xc7]F[0xee][0xf9][0xdb][0xab][0xf9]l[0xf6]v[0xfe][0xee][0xfc][0xdd][0xff]^[0xc0]pF[0xc6]Y9_k,[0x6][0xfb]M,R[0xc4]X[0xf0]RGd[0xe7][0xc4][0xb6]<n[0xb4][0xc3]D[0xcd][0xa4]r[0x1e][0xdd]2[0xc5][0x83][0xe6][0xbf][0xbd][0xa3][0x11]p[0x19][0x92]U+[0xc7][0xaa][0x13]23[0xda][0xf]Y[0xc3][0xaa]N[0xc5][0x83][0xf1][0x16][0xf]&[0xed][0xc3]8:[0x99][0xdf][0x1d]#4M[0x97]2[0x1c][0xaf][0x83][0x9c][0x1a][0x99][0x9c]2[0xe0][0xa1]#[0xf2][0x5]d[0xb3]kCv([0xf6][0x8c]!{d[0xb3]k+v]C[0x1f]4[0x96]D**>[0xe5][0x99][0xb3]"[0xd1]-[0x80][0xcd][0xd1]4H[0x83][[0xd0]<[0xb0][0xb7][0xf][0xec]U|;[0xdd]r`o[0xb2]=[0xf][0xa0][0xa1]wp[0x2][0x19][0xef]s[0x9a]'[0xeb][0xa6][0xf1][0x88][0xa9][0x9b][0xe][0x12]d[0xbc]_[0xb2]O$[0xc8]c[0xc6][0xdb]qX[0xc6][0x86][0x82][0x92]8[0xb6]" [0xb8][0xb8][0xa0] [0xbd][0x14]<[0x17]pu[0x85][0xb9][0xa1][0xb5][0xcc][0xb6][0x90]EqZ[0x8f]jN[0xc9][0xb3][0xd8]| [0xad][0x1a]"[0xd3]<[0xfe][0x83][0x14][0x9c][0x17]/[0x1]Hc[0x80][0xe7][0xba]g[0xf6][0x12][0x94][0xb5][0x12][0xd4][0x16][0xf4]c[0x5][0x6]c[0xc3]*[0xdb]pp{IXf[0xeb][0x3][0xbd][0xd0][0x83]""
+[DEBUG] 2024-11-12 06:32:15.216 [] wire -  << ";[0xa7]R[0x92][0x84][0xe2][0x89]M?E[0xd4][0x8c][0xa5]l*[0x4][0x17][0xdb][0x8f][0xda]7[0xa2][0xb1][0xc1][0x12][0xe3][0x98]J*t[0x9d]F[0xa9]>[0x15]`[0x9b]k[0x92][0xb1][0xd8][0xc2][0x98][0xb3][0x3]M[0x6]?[0xb7][0x1d][0x14]^.[0xad][0xdd][0x94][0xc5][0xf5][0xec]P7[0xd8][0xd6]\f|[0x14][0x8e][0x8e][0xa1][0xb4]f[0xae]1[0x8f][0xe][0x98][0x9b][0xe7][0xd6]][0x3][0xdc][0xc6][0xed]$[0xfb]w[0xa8]t[\n]"
+[DEBUG] 2024-11-12 06:32:15.217 [] wire -  << "[0x87][0xd5][0x9c][0x1d]=[0xb][0xd5][0xdf][0x89][0xf6][0xc9][0xce][0x1b]G[0xb5][0xef][0xb1][0xf7][0xae]u?[0xd1]/%[0xf2][0xc9][0x4][\r][0xb6][0xb][0xfb]1[0x97][0x1f]n[0x99][0x9c]^t[0x80]@[0x93]}[0x4][0xfa]w[0xb2]e[0x86]>[0x86]l[\r][0xda]w[0xe9][0x89][0xa9][0xf8][0xc3][0xc6]x,[0x13][0x1f][0x9c][0xb0][0x88]h[0xe8]lWNx[0xe6] w[0xfc]4[0xd9]uN[0xec][0x9f]4hIr'[0xa5][0xa4]>`[0x7][0xf]+[0xfb][0x8e][0x86][0xdb][0xa3][0xd4][0x8][0x13]1s[0x94][0x1a]9~[0x7]A[0xd9]o[0xcf][0xf9]F~[0xcc][0x2][0xf3][\n]"
+[DEBUG] 2024-11-12 06:32:15.217 [] wire -  << "[0xee]X[0x14][0x18]x[0x0]\W[0xb5]n[0xec][0xbd][0xae][0xc6]3G[0xf3][0xf0][0xd6][0xa7][0x9c][0xe9]~B<[0xd3][0x83][0xb7][0xb9][0x88]iB[0x7][0xaa]M[0xf0]5[\r][0xd7][0xb3][0x1d]=[0x2]-[0xd1][0xe2]B[0x96]1[0xb5][0xb1][0xee]p[0x9d]i[0xe9]^gZ[0xa3][0x15][0x9a][0xde]h[0x81][0xa3]h._[0xf7][0xbf][0xb8][0x12][0xfa][0x8d][0xa8][\n]"
+[DEBUG] 2024-11-12 06:32:15.217 [] wire -  << "[0xc5]0[0x96][0xed][0xa0][0x1f][0x8e]M [0xce][0xd1]w~[0xa6][0x2][\n]"
+[DEBUG] 2024-11-12 06:32:15.217 [] wire -  << "sRD[0xd4][0xba][0x11]`IZ[0x13]&[0xbc][0x1f][0xea][0xf6]xQ[0xb1],[0xd6][0xf3][\r][0xf4][0xa3][0xb][0xaa][0xc0][0xa6][0xac]y[0x11][0x97][0x9c][0xe1][0x18]|^[0x90]l#Y=M[0xfa]i#[0x18].[0xc7][0xe4]5Zf[0xfa][0x82][0xe]=4x[0xb5]d[0x9f][0xac][0xa6]3X[0x9][0xc5]`[0xc5][0xdc][0xd9][0xb4][0xef]KS[0x83]Ao([0xcf][0xb8]f[0x17][0x10][0x19][0x91]R[0x9a]]a[0xd6][0x9d]Y3[0xba]fp[0x0][0x9e][0xbf]#y[0x18][0x13]=%3Z[0xd3][0x95][0xc][0xf5][0xe8][0x16][0xfb][0xfe][0xf2][0xb1][0xf7][0xf4][0xd4]c[0xa6][0x19]>[0x1b][0xe4][0xeb]`[0xfe]<5d[0xf3][0xf1][0x15]J[0x7][0xfe]C'[0xfb][0xab][0xc0]][0x81][0x1e][0x83]\b[0xea]%XX[0xa1]X[0xa5]V[0xb5]z[0xcd][0xf5][0x8d][0x1][0xae]![0x19][0x92][0x86][0x9][0xb8]Q[0xf][0xc9][0xcc][0xd7][0xb5][0xdb][0xbf][0xdc][0x89][0xf5][0xd9][0xf6]q [0xba][0xd6][0xa0][0xc3][0x84]}[0xbc][0xfa][0x1][0x97][0x15][0xcd]-[0x8]B[0xfe][0xea]Up[0xf2]5[0x87][0xa9]hAq[0xc5][0x82][0x99][0x13][0xae][0x93][0xdc][0xe9][0xe0][0xcc]q[0x9c][0x83]k,=;2W[0x9b][0x11]G%[0xf7][0x82][0xf1][0xe7][0xff][0x3] [0xcb]][0x1b][0xdf] [0x0][0x0]"
+[DEBUG] 2024-11-12 06:32:15.217 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-12 06:32:15.237 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-12 06:32:15.237 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-12 06:32:15.237 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:15.237 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:15.237 [main] DefaultClientConnection - Sending request: POST /auth HTTP/1.1
+[DEBUG] 2024-11-12 06:32:15.237 [main] wire -  >> "POST /auth HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.237 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.237 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.237 [main] wire -  >> "Content-Length: 45[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.237 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.237 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.238 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.238 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.238 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.238 [main] headers - >> POST /auth HTTP/1.1
+[DEBUG] 2024-11-12 06:32:15.238 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-12 06:32:15.238 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-11-12 06:32:15.238 [main] headers - >> Content-Length: 45
+[DEBUG] 2024-11-12 06:32:15.238 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2024-11-12 06:32:15.238 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-12 06:32:15.238 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-11-12 06:32:15.238 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-12 06:32:15.238 [main] wire -  >> "{"password":"password123","username":"admin"}"
+[DEBUG] 2024-11-12 06:32:15.279 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@23e36803
+[DEBUG] 2024-11-12 06:32:15.280 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385935&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=TWMix7oba55aFo7jnUCRX0yqADfZgo9z8JhTalO6JCM%3D"}]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385935&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=TWMix7oba55aFo7jnUCRX0yqADfZgo9z8JhTalO6JCM%3D[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "Content-Length: 27[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "Etag: W/"1b-rDJdEW0UbssHNly82RInRpUSYrI"[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "Date: Tue, 12 Nov 2024 04:32:15 GMT[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:15.385 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:15.385 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:15.385 [main] headers - << Server: Cowboy
+[DEBUG] 2024-11-12 06:32:15.385 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385935&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=TWMix7oba55aFo7jnUCRX0yqADfZgo9z8JhTalO6JCM%3D"}]}
+[DEBUG] 2024-11-12 06:32:15.385 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385935&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=TWMix7oba55aFo7jnUCRX0yqADfZgo9z8JhTalO6JCM%3D
+[DEBUG] 2024-11-12 06:32:15.385 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2024-11-12 06:32:15.385 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-11-12 06:32:15.386 [main] headers - << X-Powered-By: Express
+[DEBUG] 2024-11-12 06:32:15.386 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:15.386 [main] headers - << Content-Length: 27
+[DEBUG] 2024-11-12 06:32:15.386 [main] headers - << Etag: W/"1b-rDJdEW0UbssHNly82RInRpUSYrI"
+[DEBUG] 2024-11-12 06:32:15.386 [main] headers - << Date: Tue, 12 Nov 2024 04:32:15 GMT
+[DEBUG] 2024-11-12 06:32:15.386 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2024-11-12 06:32:15.386 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:15.386 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-12 06:32:15.396 [main] wire -  << "{"token":"72a1a06d0c69111"}"
+[DEBUG] 2024-11-12 06:32:15.396 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@78f4d15d
+[DEBUG] 2024-11-12 06:32:15.396 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-12 06:32:15.405 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:15.405 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-12 06:32:15.406 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-12 06:32:15.418 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-12 06:32:15.419 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-11-12 06:32:15.980 [] ReportManager - You're using the latest engine version "8.4.20241024". 👍
+[INFO ] 2024-11-12 06:32:15.983 [main] ReportManager - Handle response; POST | Response Time: 870ms.
+[DEBUG] 2024-11-12 06:32:16.052 [main] CompiledPath - Evaluating path: $['token']
+[INFO ] 2024-11-12 06:32:16.056 [main] ReportManager - Get response jsonvalue; token.
+[INFO ] 2024-11-12 06:32:16.060 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: SetupAndGettingToken'
+[INFO ] 2024-11-12 06:32:16.092 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 2' test cases in the current suite                                        
+                             Test Method: 'using_SHAFT_Engine.CreatingThenDeleteBooking.CreatingThenDeletingBooking'                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-11-12 06:32:16.101 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:16.102 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-12 06:32:16.102 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-12 06:32:16.109 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:16.110 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:16.683 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-12 06:32:16.683 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-12 06:32:16.683 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:16.683 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:16.683 [main] DefaultClientConnection - Sending request: POST /booking HTTP/1.1
+[DEBUG] 2024-11-12 06:32:16.683 [main] wire -  >> "POST /booking HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.683 [main] wire -  >> "Cookie: token=72a1a06d0c69111[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.683 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.683 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.684 [main] wire -  >> "Content-Length: 174[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.684 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.684 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.684 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.684 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.684 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.684 [main] headers - >> POST /booking HTTP/1.1
+[DEBUG] 2024-11-12 06:32:16.684 [main] headers - >> Cookie: token=72a1a06d0c69111
+[DEBUG] 2024-11-12 06:32:16.684 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-12 06:32:16.684 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-11-12 06:32:16.684 [main] headers - >> Content-Length: 174
+[DEBUG] 2024-11-12 06:32:16.684 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2024-11-12 06:32:16.684 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-12 06:32:16.684 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-11-12 06:32:16.684 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-12 06:32:16.684 [main] wire -  >> "{"firstname":"youssef170","additionalneeds":"IceCream","bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"totalprice":1200,"depositpaid":true,"lastname":"alaa"}"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385936&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=MEvS0Ayc%2FiRcpHIp1VEapGWW2xI0H2AMoCr9NrS%2FJi4%3D"}]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385936&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=MEvS0Ayc%2FiRcpHIp1VEapGWW2xI0H2AMoCr9NrS%2FJi4%3D[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "Content-Length: 202[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "Etag: W/"ca-39K8naoN1Rdjp/F8cp34qFDcWw8"[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "Date: Tue, 12 Nov 2024 04:32:16 GMT[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:16.834 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:16.834 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:16.834 [main] headers - << Server: Cowboy
+[DEBUG] 2024-11-12 06:32:16.834 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385936&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=MEvS0Ayc%2FiRcpHIp1VEapGWW2xI0H2AMoCr9NrS%2FJi4%3D"}]}
+[DEBUG] 2024-11-12 06:32:16.835 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385936&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=MEvS0Ayc%2FiRcpHIp1VEapGWW2xI0H2AMoCr9NrS%2FJi4%3D
+[DEBUG] 2024-11-12 06:32:16.835 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2024-11-12 06:32:16.835 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-11-12 06:32:16.835 [main] headers - << X-Powered-By: Express
+[DEBUG] 2024-11-12 06:32:16.835 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:16.835 [main] headers - << Content-Length: 202
+[DEBUG] 2024-11-12 06:32:16.835 [main] headers - << Etag: W/"ca-39K8naoN1Rdjp/F8cp34qFDcWw8"
+[DEBUG] 2024-11-12 06:32:16.835 [main] headers - << Date: Tue, 12 Nov 2024 04:32:16 GMT
+[DEBUG] 2024-11-12 06:32:16.835 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2024-11-12 06:32:16.835 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:16.835 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-12 06:32:16.836 [main] wire -  << "{"bookingid":749,"booking":{"firstname":"youssef170","lastname":"alaa","totalprice":1200,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"IceCream"}}"
+[DEBUG] 2024-11-12 06:32:16.836 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@22fe90df
+[DEBUG] 2024-11-12 06:32:16.836 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-12 06:32:16.836 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:16.837 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-12 06:32:16.837 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-12 06:32:16.839 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-12 06:32:16.842 [main] ReportManager - Actual response status code "200" matches the expected one "200".
+[INFO ] 2024-11-12 06:32:16.856 [main] ReportManager - Handle response; POST | Target Status Code: 200 | Response Time: 729ms.
+[DEBUG] 2024-11-12 06:32:16.858 [main] CompiledPath - Evaluating path: $['bookingid']
+[INFO ] 2024-11-12 06:32:16.859 [main] ReportManager - Get response jsonvalue; bookingid.
+[DEBUG] 2024-11-12 06:32:16.859 [main] CompiledPath - Evaluating path: $['booking']['firstname']
+[INFO ] 2024-11-12 06:32:16.860 [main] ReportManager - Get response jsonvalue; booking.firstname.
+[DEBUG] 2024-11-12 06:32:16.861 [main] CompiledPath - Evaluating path: $['booking']['lastname']
+[INFO ] 2024-11-12 06:32:16.861 [main] ReportManager - Get response jsonvalue; booking.lastname.
+[DEBUG] 2024-11-12 06:32:16.862 [main] CompiledPath - Evaluating path: $['booking']['totalprice']
+[INFO ] 2024-11-12 06:32:16.863 [main] ReportManager - Get response jsonvalue; booking.totalprice.
+[DEBUG] 2024-11-12 06:32:16.863 [main] CompiledPath - Evaluating path: $['booking']['depositpaid']
+[INFO ] 2024-11-12 06:32:16.864 [main] ReportManager - Get response jsonvalue; booking.depositpaid.
+[DEBUG] 2024-11-12 06:32:16.865 [main] CompiledPath - Evaluating path: $['booking']['bookingdates']['checkin']
+[INFO ] 2024-11-12 06:32:16.865 [main] ReportManager - Get response jsonvalue; booking.bookingdates.checkin.
+[DEBUG] 2024-11-12 06:32:16.865 [main] CompiledPath - Evaluating path: $['booking']['bookingdates']['checkout']
+[INFO ] 2024-11-12 06:32:16.866 [main] ReportManager - Get response jsonvalue; booking.bookingdates.checkout.
+[DEBUG] 2024-11-12 06:32:16.866 [main] CompiledPath - Evaluating path: $['booking']['additionalneeds']
+[INFO ] 2024-11-12 06:32:16.867 [main] ReportManager - Get response jsonvalue; booking.additionalneeds.
+[DEBUG] 2024-11-12 06:32:16.884 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:16.885 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-12 06:32:16.885 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-12 06:32:16.921 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:16.921 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:17.502 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-12 06:32:17.502 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-12 06:32:17.502 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:17.502 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:17.502 [main] DefaultClientConnection - Sending request: GET /booking?firstname=youssef170&lastname=alaa HTTP/1.1
+[DEBUG] 2024-11-12 06:32:17.502 [main] wire -  >> "GET /booking?firstname=youssef170&lastname=alaa HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.502 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.502 [main] wire -  >> "Cookie: token=72a1a06d0c69111[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.502 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.502 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.502 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.502 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.503 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.503 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.503 [main] headers - >> GET /booking?firstname=youssef170&lastname=alaa HTTP/1.1
+[DEBUG] 2024-11-12 06:32:17.503 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-11-12 06:32:17.503 [main] headers - >> Cookie: token=72a1a06d0c69111
+[DEBUG] 2024-11-12 06:32:17.503 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-12 06:32:17.503 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2024-11-12 06:32:17.503 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-12 06:32:17.503 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-11-12 06:32:17.503 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-12 06:32:17.649 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.649 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.649 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385937&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=3C0M%2FS0UKGCk9nkCWyu%2BVZs2ePkvhoure%2BKf4VunXEg%3D"}]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.649 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385937&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=3C0M%2FS0UKGCk9nkCWyu%2BVZs2ePkvhoure%2BKf4VunXEg%3D[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.649 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.649 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.649 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.649 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.650 [main] wire -  << "Content-Length: 19[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.650 [main] wire -  << "Etag: W/"13-K9yVBAG1Kc6KXN3H9Gv7vfr4IdU"[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.650 [main] wire -  << "Date: Tue, 12 Nov 2024 04:32:17 GMT[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.650 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.650 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:17.650 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << Server: Cowboy
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385937&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=3C0M%2FS0UKGCk9nkCWyu%2BVZs2ePkvhoure%2BKf4VunXEg%3D"}]}
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385937&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=3C0M%2FS0UKGCk9nkCWyu%2BVZs2ePkvhoure%2BKf4VunXEg%3D
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << X-Powered-By: Express
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << Content-Length: 19
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << Etag: W/"13-K9yVBAG1Kc6KXN3H9Gv7vfr4IdU"
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << Date: Tue, 12 Nov 2024 04:32:17 GMT
+[DEBUG] 2024-11-12 06:32:17.650 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2024-11-12 06:32:17.650 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:17.650 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-12 06:32:17.651 [main] wire -  << "[{"bookingid":749}]"
+[DEBUG] 2024-11-12 06:32:17.651 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@22657db1
+[DEBUG] 2024-11-12 06:32:17.651 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-12 06:32:17.651 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:17.652 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-12 06:32:17.652 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-12 06:32:17.655 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-12 06:32:17.655 [main] ReportManager - Actual response status code "200" matches the expected one "200".
+[INFO ] 2024-11-12 06:32:17.673 [main] ReportManager - Handle response; GET | Target Status Code: 200 | Response Time: 763ms | URL Arguments: firstname=youssef170&lastname=alaa.
+[DEBUG] 2024-11-12 06:32:17.675 [main] CompiledPath - Evaluating path: $[0]['bookingid']
+[INFO ] 2024-11-12 06:32:17.675 [main] ReportManager - Get response jsonvalue; [0].bookingid.
+[DEBUG] 2024-11-12 06:32:17.680 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:17.680 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-12 06:32:17.680 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-12 06:32:17.687 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:17.687 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:18.281 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-12 06:32:18.281 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-12 06:32:18.281 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:18.281 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:18.281 [main] DefaultClientConnection - Sending request: GET /booking/749 HTTP/1.1
+[DEBUG] 2024-11-12 06:32:18.281 [main] wire -  >> "GET /booking/749 HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.282 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.282 [main] wire -  >> "Cookie: token=72a1a06d0c69111[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.282 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.282 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.282 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.282 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.282 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.282 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.282 [main] headers - >> GET /booking/749 HTTP/1.1
+[DEBUG] 2024-11-12 06:32:18.282 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-11-12 06:32:18.282 [main] headers - >> Cookie: token=72a1a06d0c69111
+[DEBUG] 2024-11-12 06:32:18.282 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-12 06:32:18.282 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2024-11-12 06:32:18.282 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-12 06:32:18.282 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-11-12 06:32:18.282 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-12 06:32:18.428 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385938&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=McvWUJ7IS69kwcnhuR9aOWHHdVdnH1R5SFRpcNYchFI%3D"}]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385938&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=McvWUJ7IS69kwcnhuR9aOWHHdVdnH1R5SFRpcNYchFI%3D[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "Content-Length: 174[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "Etag: W/"ae-CEo9mnRPb69psIuRuPZVveNzHoc"[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "Date: Tue, 12 Nov 2024 04:32:18 GMT[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:18.429 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << Server: Cowboy
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385938&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=McvWUJ7IS69kwcnhuR9aOWHHdVdnH1R5SFRpcNYchFI%3D"}]}
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385938&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=McvWUJ7IS69kwcnhuR9aOWHHdVdnH1R5SFRpcNYchFI%3D
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << X-Powered-By: Express
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << Content-Length: 174
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << Etag: W/"ae-CEo9mnRPb69psIuRuPZVveNzHoc"
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << Date: Tue, 12 Nov 2024 04:32:18 GMT
+[DEBUG] 2024-11-12 06:32:18.429 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2024-11-12 06:32:18.430 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:18.430 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-12 06:32:18.430 [main] wire -  << "{"firstname":"youssef170","lastname":"alaa","totalprice":1200,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"IceCream"}"
+[DEBUG] 2024-11-12 06:32:18.430 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1f7949dc
+[DEBUG] 2024-11-12 06:32:18.430 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-12 06:32:18.431 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:18.431 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-12 06:32:18.431 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-12 06:32:18.433 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-12 06:32:18.434 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-11-12 06:32:18.445 [main] ReportManager - Handle response; GET | Response Time: 746ms.
+[DEBUG] 2024-11-12 06:32:18.446 [main] CompiledPath - Evaluating path: $['firstname']
+[INFO ] 2024-11-12 06:32:18.446 [main] ReportManager - Get response jsonvalue; firstname.
+[DEBUG] 2024-11-12 06:32:18.446 [main] CompiledPath - Evaluating path: $['lastname']
+[INFO ] 2024-11-12 06:32:18.447 [main] ReportManager - Get response jsonvalue; lastname.
+[DEBUG] 2024-11-12 06:32:18.447 [main] CompiledPath - Evaluating path: $['totalprice']
+[INFO ] 2024-11-12 06:32:18.447 [main] ReportManager - Get response jsonvalue; totalprice.
+[DEBUG] 2024-11-12 06:32:18.448 [main] CompiledPath - Evaluating path: $['depositpaid']
+[INFO ] 2024-11-12 06:32:18.448 [main] ReportManager - Get response jsonvalue; depositpaid.
+[DEBUG] 2024-11-12 06:32:18.449 [main] CompiledPath - Evaluating path: $['bookingdates']['checkin']
+[INFO ] 2024-11-12 06:32:18.449 [main] ReportManager - Get response jsonvalue; bookingdates.checkin.
+[DEBUG] 2024-11-12 06:32:18.449 [main] CompiledPath - Evaluating path: $['bookingdates']['checkout']
+[INFO ] 2024-11-12 06:32:18.450 [main] ReportManager - Get response jsonvalue; bookingdates.checkout.
+[DEBUG] 2024-11-12 06:32:18.450 [main] CompiledPath - Evaluating path: $['additionalneeds']
+[INFO ] 2024-11-12 06:32:18.450 [main] ReportManager - Get response jsonvalue; additionalneeds.
+[DEBUG] 2024-11-12 06:32:18.455 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:18.456 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-12 06:32:18.456 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-12 06:32:18.462 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:18.462 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:19.037 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-12 06:32:19.037 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-12 06:32:19.037 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:19.037 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:19.037 [main] DefaultClientConnection - Sending request: DELETE /booking/749 HTTP/1.1
+[DEBUG] 2024-11-12 06:32:19.037 [main] wire -  >> "DELETE /booking/749 HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.037 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.038 [main] wire -  >> "Cookie: token=72a1a06d0c69111[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.038 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.038 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.038 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.038 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.038 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.038 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.038 [main] headers - >> DELETE /booking/749 HTTP/1.1
+[DEBUG] 2024-11-12 06:32:19.038 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-11-12 06:32:19.038 [main] headers - >> Cookie: token=72a1a06d0c69111
+[DEBUG] 2024-11-12 06:32:19.038 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-12 06:32:19.038 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2024-11-12 06:32:19.038 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-12 06:32:19.038 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-11-12 06:32:19.038 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "HTTP/1.1 201 Created[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385939&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vuAuk%2BHUHuMLwxzliwFyWNW4%2Bx3WbGkVwP8eROqRTh8%3D"}]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385939&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vuAuk%2BHUHuMLwxzliwFyWNW4%2Bx3WbGkVwP8eROqRTh8%3D[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "Content-Length: 7[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "Date: Tue, 12 Nov 2024 04:32:19 GMT[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.188 [main] DefaultClientConnection - Receiving response: HTTP/1.1 201 Created
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << HTTP/1.1 201 Created
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << Server: Cowboy
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385939&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vuAuk%2BHUHuMLwxzliwFyWNW4%2Bx3WbGkVwP8eROqRTh8%3D"}]}
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385939&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vuAuk%2BHUHuMLwxzliwFyWNW4%2Bx3WbGkVwP8eROqRTh8%3D
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << X-Powered-By: Express
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << Content-Type: text/plain; charset=utf-8
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << Content-Length: 7
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << Date: Tue, 12 Nov 2024 04:32:19 GMT
+[DEBUG] 2024-11-12 06:32:19.188 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2024-11-12 06:32:19.189 [main] RestAssuredHttpBuilder - Parsing response as: text/plain; charset=utf-8
+[DEBUG] 2024-11-12 06:32:19.189 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-12 06:32:19.189 [main] wire -  << "Created"
+[DEBUG] 2024-11-12 06:32:19.189 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7d3faf1d
+[DEBUG] 2024-11-12 06:32:19.189 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-12 06:32:19.189 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:19.190 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-12 06:32:19.190 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-12 06:32:19.192 [main] ReportManager - Response status code: "201", status line: "HTTP/1.1 201 Created"
+[INFO ] 2024-11-12 06:32:19.192 [main] ReportManager - Actual response status code "201" matches the expected one "201".
+[INFO ] 2024-11-12 06:32:19.193 [main] ReportManager - Handle response; DELETE | Target Status Code: 201 | Response Time: 730ms.
+[INFO ] 2024-11-12 06:32:19.197 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: CreatingThenDeletingBooking'
+[INFO ] 2024-11-12 06:32:19.197 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                  Finished Execution of Test Method: 'using_SHAFT_Engine.CreatingThenDeleteBooking.CreatingThenDeletingBooking'                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-12 06:32:19.297 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting execution of setup and getting token configuration method                                       
+                                            'using_SHAFT_Engine.UpdatingBooking.SetupAndGettingToken'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-11-12 06:32:19.303 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:19.303 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-12 06:32:19.303 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-12 06:32:19.311 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:19.311 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:19.883 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-12 06:32:19.883 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-12 06:32:19.883 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:19.883 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:19.883 [main] DefaultClientConnection - Sending request: POST /auth HTTP/1.1
+[DEBUG] 2024-11-12 06:32:19.883 [main] wire -  >> "POST /auth HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.883 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.883 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.883 [main] wire -  >> "Content-Length: 45[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.883 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.883 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.883 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.883 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.883 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:19.883 [main] headers - >> POST /auth HTTP/1.1
+[DEBUG] 2024-11-12 06:32:19.884 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-12 06:32:19.884 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-11-12 06:32:19.884 [main] headers - >> Content-Length: 45
+[DEBUG] 2024-11-12 06:32:19.884 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2024-11-12 06:32:19.884 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-12 06:32:19.884 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-11-12 06:32:19.884 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-12 06:32:19.884 [main] wire -  >> "{"password":"password123","username":"admin"}"
+[DEBUG] 2024-11-12 06:32:20.028 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385939&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vuAuk%2BHUHuMLwxzliwFyWNW4%2Bx3WbGkVwP8eROqRTh8%3D"}]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385939&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vuAuk%2BHUHuMLwxzliwFyWNW4%2Bx3WbGkVwP8eROqRTh8%3D[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "Content-Length: 27[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "Etag: W/"1b-476SbJV4fEK6yGskqdLtl0yO7mo"[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "Date: Tue, 12 Nov 2024 04:32:19 GMT[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.029 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:20.029 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:20.029 [main] headers - << Server: Cowboy
+[DEBUG] 2024-11-12 06:32:20.029 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385939&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vuAuk%2BHUHuMLwxzliwFyWNW4%2Bx3WbGkVwP8eROqRTh8%3D"}]}
+[DEBUG] 2024-11-12 06:32:20.029 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385939&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vuAuk%2BHUHuMLwxzliwFyWNW4%2Bx3WbGkVwP8eROqRTh8%3D
+[DEBUG] 2024-11-12 06:32:20.029 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2024-11-12 06:32:20.029 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-11-12 06:32:20.029 [main] headers - << X-Powered-By: Express
+[DEBUG] 2024-11-12 06:32:20.029 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:20.029 [main] headers - << Content-Length: 27
+[DEBUG] 2024-11-12 06:32:20.030 [main] headers - << Etag: W/"1b-476SbJV4fEK6yGskqdLtl0yO7mo"
+[DEBUG] 2024-11-12 06:32:20.030 [main] headers - << Date: Tue, 12 Nov 2024 04:32:19 GMT
+[DEBUG] 2024-11-12 06:32:20.030 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2024-11-12 06:32:20.030 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:20.030 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-12 06:32:20.030 [main] wire -  << "{"token":"616f733fa2341c0"}"
+[DEBUG] 2024-11-12 06:32:20.030 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@642b71d6
+[DEBUG] 2024-11-12 06:32:20.030 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-12 06:32:20.031 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:20.031 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-12 06:32:20.031 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-12 06:32:20.033 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-12 06:32:20.034 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-11-12 06:32:20.047 [main] ReportManager - Handle response; POST | Response Time: 722ms.
+[DEBUG] 2024-11-12 06:32:20.047 [main] CompiledPath - Evaluating path: $['token']
+[INFO ] 2024-11-12 06:32:20.047 [main] ReportManager - Get response jsonvalue; token.
+[INFO ] 2024-11-12 06:32:20.049 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: SetupAndGettingToken'
+[INFO ] 2024-11-12 06:32:20.052 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 2' test cases in the current suite                                        
+                                         Test Method: 'using_SHAFT_Engine.UpdatingBooking.UpdateBooking'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-11-12 06:32:20.056 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:20.056 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-12 06:32:20.056 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-12 06:32:20.062 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:20.062 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:20.635 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-12 06:32:20.635 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-12 06:32:20.635 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:20.635 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:20.636 [main] DefaultClientConnection - Sending request: GET /booking HTTP/1.1
+[DEBUG] 2024-11-12 06:32:20.636 [main] wire -  >> "GET /booking HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.636 [main] wire -  >> "Cookie: token=616f733fa2341c0[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.636 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.636 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.636 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.636 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.636 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.636 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.636 [main] headers - >> GET /booking HTTP/1.1
+[DEBUG] 2024-11-12 06:32:20.636 [main] headers - >> Cookie: token=616f733fa2341c0
+[DEBUG] 2024-11-12 06:32:20.636 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-12 06:32:20.636 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2024-11-12 06:32:20.636 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-12 06:32:20.636 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-11-12 06:32:20.636 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385940&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=pPymxurI0OWn9bm3WUsKBsHWw%2BMtLW6XM3ySrZr8bXY%3D"}]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385940&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=pPymxurI0OWn9bm3WUsKBsHWw%2BMtLW6XM3ySrZr8bXY%3D[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "Content-Length: 9793[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "Etag: W/"2641-eZwRNv/jvHslT2oxlaxRkbDF/Uw"[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "Date: Tue, 12 Nov 2024 04:32:20 GMT[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:20.788 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << Server: Cowboy
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385940&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=pPymxurI0OWn9bm3WUsKBsHWw%2BMtLW6XM3ySrZr8bXY%3D"}]}
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385940&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=pPymxurI0OWn9bm3WUsKBsHWw%2BMtLW6XM3ySrZr8bXY%3D
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << X-Powered-By: Express
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << Content-Length: 9793
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << Etag: W/"2641-eZwRNv/jvHslT2oxlaxRkbDF/Uw"
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << Date: Tue, 12 Nov 2024 04:32:20 GMT
+[DEBUG] 2024-11-12 06:32:20.788 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2024-11-12 06:32:20.789 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:20.789 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-12 06:32:20.789 [main] wire -  << "[{"bookingid":352},{"bookingid":542},{"bookingid":8},{"bookingid":363},{"bookingid":292},{"bookingid":586},{"bookingid":90},{"bookingid":241},{"bookingid":11},{"bookingid":692},{"bookingid":235},{"bookingid":52},{"bookingid":88},{"bookingid":253},{"bookingid":408},{"bookingid":406},{"bookingid":371},{"bookingid":392},{"bookingid":178},{"bookingid":124},{"bookingid":167},{"bookingid":555},{"bookingid":456},{"bookingid":515},{"bookingid":762},{"bookingid":611},{"bookingid":146},{"bookingid":697},{"bookingid":595},{"bookingid":415},{"bookingid":184},{"bookingid":252},{"bookingid":10},{"bookingid":709},{"bookingid":431},{"bookingid":12},{"bookingid":347},{"bookingid":250},{"bookingid":26},{"bookingid":447},{"bookingid":85},{"bookingid":20},{"bookingid":718},{"bookingid":97},{"bookingid":594},{"bookingid":726},{"bookingid":84},{"bookingid":688},{"bookingid":78},{"bookingid":382},{"bookingid":523},{"bookingid":612},{"bookingid":466},{"bookingid":307},{"bookingid":339},{"bookingid":134},{"bookingid":14},{"bookingid":501},{"bookingid":650},{"bookingid":438},{"bookingid":7},{"bookingid":551},{"bookingid":609},{"bookingid":24},{"bookingid":92},{"bookingid":89},{"bookingid":191},{"bookingid":499},{"bookingid":681},{"bookingid":203},{"bookingid":254},{"bookingid":143},{"bookingid":260},{"bookingid":280},{"bookingid":154},{"bookingid":231},{"bookingid":258},{"bookingid":331},{"bookingid":96},{"bookingid":30},{"bookingid":735},{"bookingid":734},{"bookingid":425},{"bookingid":707},{"bookingid":274},{"bookingid":58},{"bookingid":389},{"bookingid":474},{"bookingid":188},{"bookingid":287},{"bookingid":477},{"bookingid":653},{"bookingid":753},{"bookingid":514},{"bookingid":750},{"bookingid":505},{"bookingid":418},{"bookingid":665},{"bookingid":104},{"bookingid":537},{"bookingid":112},{"bookingid":701},{"bookingid":335},{"bookingid":564},{"bookingid":729},{"bookingid":40},{"bookingid":651},{"bookingid":289},{"bookingid":180},{"bookingid":760},{"bookingid":741},{"bookingid":416},{"bookingid":193},{"bookingid":102},{"bookingid":1},{"bookingid":321},{"bookingid":454},{"bookingid":472},{"bookingid":141},{"bookingid":703},{"bookingid":457},{"bookingid":767},{"bookingid":95},{"bookingid":42},{"bookingid":600},{"bookingid":362},{"bookingid":240},{"bookingid":745},{"bookingid":553},{"bookingid":378},{"bookingid":492},{"bookingid":710},{"bookingid":192},{"bookingid":548},{"bookingid":128},{"bookingid":538},{"bookingid":279},{"bookingid":359},{"bookingid":329},{"bookingid":459},{"bookingid":165},{"bookingid":637},{"bookingid":625},{"bookingid":35},{"bookingid":21},{"bookingid":763},{"bookingid":25},{"bookingid":116},{"bookingid":344},{"bookingid":62},{"bookingid":248},{"bookingid":561},{"bookingid":273},{"bookingid":205},{"bookingid":525},{"bookingid":619},{"bookingid":351},{"bookingid":479},{"bookingid":448},{"bookingid":330},{"bookingid":587},{"bookingid":771},{"bookingid":328},{"bookingid":304},{"bookingid":635},{"bookingid":410},{"bookingid":264},{"bookingid":476},{"bookingid":592},{"bookingid":761},{"bookingid":444},{"bookingid":209},{"bookingid":570},{"bookingid":83},{"bookingid":679},{"bookingid":676},{"bookingid":43},{"bookingid":521},{"bookingid":739},{"bookingid":446},{"bookingid":402},{"bookingid":9},{"bookingid":440},{"bookingid":467},{"bookingid":259},{"bookingid":268},{"bookingid":752},{"bookingid":32},{"bookingid":715},{"bookingid":687},{"bookingid":301},{"bookingid":125},{"bookingid":421},{"bookingid":481},{"bookingid":93},{"bookingid":63},{"bookingid":419},{"bookingid":212},{"bookingid":689},{"bookingid":267},{"bookingid":303},{"bookingid":426},{"bookingid":584},{"bookingid":46},{"bookingid":777},{"bookingid":785},{"bookingid":81},{"bookingid":413},{"bookingid":568},{"bookingid":782},{"bookingid":547},{"bookingid":706},{"bookingid":107},{"bookingid":122},{"bookingid":567},{"bookingid":445},{"bookingid":220},{"bookingid":4},{"bookingid":768},{"bookingid":375},{"bookingid":498},{"bookingid":19},{"bookingid":214},{"bookingid":271},{"bookingid":210},{"bookingid":736},{"bookingid":599},{"bookingid":401},{"bookingid":313},{"bookingid":366},{"bookingid":601},{"bookingid":242},{"bookingid":691},{"bookingid":27},{"bookingid":667},{"bookingid":659},{"bookingid":114},{"bookingid":660},{"bookingid":671},{"bookingid":387},{"bookingid":656},{"bookingid":283},{"bookingid":336},{"bookingid":135},{"bookingid":487},{"bookingid":140},{"bookingid":427},{"bookingid":658},{"bookingid":286},{"bookingid":79},{"bookingid":265},{"bookingid":486},{"bookingid":384},{"bookingid":372},{"bookingid":670},{"bookingid":87},{"bookingid":719},{"bookingid":488},{"bookingid":511},{"bookingid":773},{"bookingid":99},{"bookingid":38},{"bookingid":503},{"bookingid":627},{"bookingid":562},{"bookingid":57},{"bookingid":775},{"bookingid":546},{"bookingid":774},{"bookingid":712},{"bookingid":700},{"bookingid":173},{"bookingid":648},{"bookingid":468},{"bookingid":643},{"bookingid":281},{"bookingid":218},{"bookingid":569},{"bookingid":539},{"bookingid":174},{"bookingid":694},{"bookingid":647},{"bookingid":221},{"bookingid":171},{"bookingid":652},{"bookingid":522},{"bookingid":71},{"bookingid":2},{"bookingid":13},{"bookingid":554},{"bookingid":686},{"bookingid":471},{"bookingid":615},{"bookingid":779},{"bookingid":725},{"bookingid":520},{"bookingid":424},{"bookingid":100},{"bookingid":693},{"bookingid":150},{"bookingid":44},{"bookingid":430},{"bookingid":110},{"bookingid":460},{"bookingid":629},{"bookingid":781},{"bookingid":181},{"bookingid":374},{"bookingid":69},{"bookingid":624},{"bookingid":55},{"bookingid":157},{"bookingid":207},{"bookingid":282},{"bookingid":168},{"bookingid":437},{"bookingid":728},{"bookingid":162},{"bookingid":314},{"bookingid":589},{"bookingid":668},{"bookingid":76},{"bookingid":396},{"bookingid":269},{"bookingid":490},{"bookingid":748},{"bookingid":216},{"bookingid":720},{"bookingid":721},{"bookingid":484},{"bookingid":277},{"bookingid":276},{"bookingid":574},{"bookingid":473},{"bookingid":238},{"bookingid":632},{"bookingid":65},{"bookingid":664},{"bookingid":294},{"bookingid":496},{"bookingid":622},{"bookingid":373},{"bookingid":532},{"bookingid":137},{"bookingid":495},{"bookingid":702},{"bookingid":222},{"bookingid":531},{"bookingid":45},{"bookingid":255},{"bookingid":111},{"bookingid":234},{"bookingid":436},{"bookingid":563},{"bookingid":308},{"bookingid":325},{"bookingid":452},{"bookingid":579},{"bookingid":158},{"bookingid":262},{"bookingid":674},{"bookingid":558},{"bookingid":631},{"bookingid":126},{"bookingid":508},{"bookingid":645},{"bookingid":605},{"bookingid":582},{"bookingid":677},{"bookingid":215},{"bookingid":439},{"bookingid":716},{"bookingid":349},{"bookingid":621},{"bookingid":47},{"bookingid":121},{"bookingid":68},{"bookingid":302},{"bookingid":549},{"bookingid":534},{"bookingid":506},{"bookingid":337},{"bookingid":354},{"bookingid":345},{"bookingid":223},{"bookingid":529},{"bookingid":198},{"bookingid":144},{"bookingid":528},{"bookingid":16},{"bookingid":411},{"bookingid":229},{"bookingid":161},{"bookingid":5},{"bookingid":132},{"bookingid":298},{"bookingid":185},{"bookingid":200},{"bookingid":115},{"bookingid":70},{"bookingid":15},{"bookingid":288},{"bookingid":206},{"bookingid":541},{"bookingid":758},{"bookingid":698},{"bookingid":443},{"bookingid":82},{"bookingid":742},{"bookingid":6},{"bookingid":516},{"bookingid":733},{"bookingid":590},{"bookingid":118},{"bookingid":461},{"bookingid":388},{"bookingid":680},{""
+[DEBUG] 2024-11-12 06:32:20.789 [main] wire -  << "bookingid":56},{"bookingid":513},{"bookingid":60},{"bookingid":493},{"bookingid":524},{"bookingid":34},{"bookingid":257},{"bookingid":759},{"bookingid":641},{"bookingid":350},{"bookingid":756},{"bookingid":29},{"bookingid":616},{"bookingid":50},{"bookingid":583},{"bookingid":170},{"bookingid":346},{"bookingid":772},{"bookingid":682},{"bookingid":502},{"bookingid":164},{"bookingid":101},{"bookingid":322},{"bookingid":41},{"bookingid":361},{"bookingid":295},{"bookingid":151},{"bookingid":482},{"bookingid":575},{"bookingid":603},{"bookingid":769},{"bookingid":156},{"bookingid":598},{"bookingid":602},{"bookingid":49},{"bookingid":672},{"bookingid":740},{"bookingid":639},{"bookingid":315},{"bookingid":433},{"bookingid":105},{"bookingid":453},{"bookingid":367},{"bookingid":610},{"bookingid":404},{"bookingid":746},{"bookingid":379},{"bookingid":713},{"bookingid":386},{"bookingid":626},{"bookingid":597},{"bookingid":618},{"bookingid":228},{"bookingid":278},{"bookingid":403},{"bookingid":310},{"bookingid":365},{"bookingid":576},{"bookingid":340},{"bookingid":297},{"bookingid":227},{"bookingid":580},{"bookingid":399},{"bookingid":106},{"bookingid":368},{"bookingid":31},{"bookingid":236},{"bookingid":225},{"bookingid":780},{"bookingid":199},{"bookingid":638},{"bookingid":131},{"bookingid":397},{"bookingid":169},{"bookingid":644},{"bookingid":316},{"bookingid":535},{"bookingid":176},{"bookingid":319},{"bookingid":129},{"bookingid":358},{"bookingid":3},{"bookingid":573},{"bookingid":543},{"bookingid":380},{"bookingid":73},{"bookingid":309},{"bookingid":464},{"bookingid":61},{"bookingid":94},{"bookingid":138},{"bookingid":662},{"bookingid":730},{"bookingid":64},{"bookingid":604},{"bookingid":233},{"bookingid":754},{"bookingid":37},{"bookingid":517},{"bookingid":179},{"bookingid":54},{"bookingid":190},{"bookingid":432},{"bookingid":74},{"bookingid":355},{"bookingid":18},{"bookingid":187},{"bookingid":326},{"bookingid":147},{"bookingid":103},{"bookingid":149},{"bookingid":333},{"bookingid":557},{"bookingid":675},{"bookingid":717},{"bookingid":72},{"bookingid":342},{"bookingid":320},{"bookingid":509},{"bookingid":155},{"bookingid":246},{"bookingid":442},{"bookingid":463},{"bookingid":390},{"bookingid":196},{"bookingid":420},{"bookingid":197},{"bookingid":293},{"bookingid":395},{"bookingid":23},{"bookingid":247},{"bookingid":633}]"
+[DEBUG] 2024-11-12 06:32:20.789 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@12ebcdf6
+[DEBUG] 2024-11-12 06:32:20.789 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-12 06:32:20.797 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:20.797 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-12 06:32:20.797 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-12 06:32:20.800 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-12 06:32:20.800 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-11-12 06:32:20.842 [main] ReportManager - Handle response; GET | Response Time: 730ms.
+[DEBUG] 2024-11-12 06:32:20.849 [main] CompiledPath - Evaluating path: $[0]['bookingid']
+[INFO ] 2024-11-12 06:32:20.850 [main] ReportManager - Get response jsonvalue; [0].bookingid.
+[DEBUG] 2024-11-12 06:32:20.855 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:20.855 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-12 06:32:20.855 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-12 06:32:20.862 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:20.862 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:21.433 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-12 06:32:21.434 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-12 06:32:21.434 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:21.434 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:21.434 [main] DefaultClientConnection - Sending request: PUT /booking/352 HTTP/1.1
+[DEBUG] 2024-11-12 06:32:21.434 [main] wire -  >> "PUT /booking/352 HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.434 [main] wire -  >> "Cookie: token=616f733fa2341c0[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.434 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.434 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.434 [main] wire -  >> "Content-Length: 169[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.434 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.434 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.434 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.434 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.434 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.434 [main] headers - >> PUT /booking/352 HTTP/1.1
+[DEBUG] 2024-11-12 06:32:21.434 [main] headers - >> Cookie: token=616f733fa2341c0
+[DEBUG] 2024-11-12 06:32:21.434 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-12 06:32:21.434 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-11-12 06:32:21.434 [main] headers - >> Content-Length: 169
+[DEBUG] 2024-11-12 06:32:21.434 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2024-11-12 06:32:21.434 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-12 06:32:21.434 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-11-12 06:32:21.434 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-12 06:32:21.434 [main] wire -  >> "{"firstname":"Fares","additionalneeds":"Juice","bookingdates":{"checkin":"2019-01-01","checkout":"2020-01-01"},"totalprice":1200,"depositpaid":true,"lastname":"Mohamed"}"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385941&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=UomNnXWQLCBycbeTDfCoAe2fSocSJ2do6Ytb36XS6a4%3D"}]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385941&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=UomNnXWQLCBycbeTDfCoAe2fSocSJ2do6Ytb36XS6a4%3D[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "Content-Length: 169[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "Etag: W/"a9-WtCfH4ZFrPX1qSjidur3p3KhvHc"[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "Date: Tue, 12 Nov 2024 04:32:21 GMT[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:21.582 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:21.582 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:21.582 [main] headers - << Server: Cowboy
+[DEBUG] 2024-11-12 06:32:21.582 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385941&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=UomNnXWQLCBycbeTDfCoAe2fSocSJ2do6Ytb36XS6a4%3D"}]}
+[DEBUG] 2024-11-12 06:32:21.582 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385941&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=UomNnXWQLCBycbeTDfCoAe2fSocSJ2do6Ytb36XS6a4%3D
+[DEBUG] 2024-11-12 06:32:21.582 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2024-11-12 06:32:21.582 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-11-12 06:32:21.582 [main] headers - << X-Powered-By: Express
+[DEBUG] 2024-11-12 06:32:21.582 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:21.582 [main] headers - << Content-Length: 169
+[DEBUG] 2024-11-12 06:32:21.582 [main] headers - << Etag: W/"a9-WtCfH4ZFrPX1qSjidur3p3KhvHc"
+[DEBUG] 2024-11-12 06:32:21.582 [main] headers - << Date: Tue, 12 Nov 2024 04:32:21 GMT
+[DEBUG] 2024-11-12 06:32:21.583 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2024-11-12 06:32:21.583 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:21.583 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-12 06:32:21.584 [main] wire -  << "{"firstname":"Fares","lastname":"Mohamed","totalprice":1200,"depositpaid":true,"bookingdates":{"checkin":"2019-01-01","checkout":"2020-01-01"},"additionalneeds":"Juice"}"
+[DEBUG] 2024-11-12 06:32:21.584 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@44f88149
+[DEBUG] 2024-11-12 06:32:21.584 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-12 06:32:21.584 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:21.584 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-12 06:32:21.584 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-12 06:32:21.587 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-12 06:32:21.588 [main] ReportManager - Actual response status code "200" matches the expected one "200".
+[INFO ] 2024-11-12 06:32:21.603 [main] ReportManager - Handle response; PUT | Target Status Code: 200 | Response Time: 724ms.
+[DEBUG] 2024-11-12 06:32:21.603 [main] CompiledPath - Evaluating path: $['firstname']
+[INFO ] 2024-11-12 06:32:21.604 [main] ReportManager - Get response jsonvalue; firstname.
+[DEBUG] 2024-11-12 06:32:21.604 [main] CompiledPath - Evaluating path: $['lastname']
+[INFO ] 2024-11-12 06:32:21.605 [main] ReportManager - Get response jsonvalue; lastname.
+[DEBUG] 2024-11-12 06:32:21.605 [main] CompiledPath - Evaluating path: $['totalprice']
+[INFO ] 2024-11-12 06:32:21.605 [main] ReportManager - Get response jsonvalue; totalprice.
+[DEBUG] 2024-11-12 06:32:21.606 [main] CompiledPath - Evaluating path: $['depositpaid']
+[INFO ] 2024-11-12 06:32:21.606 [main] ReportManager - Get response jsonvalue; depositpaid.
+[DEBUG] 2024-11-12 06:32:21.606 [main] CompiledPath - Evaluating path: $['bookingdates']['checkin']
+[INFO ] 2024-11-12 06:32:21.607 [main] ReportManager - Get response jsonvalue; bookingdates.checkin.
+[DEBUG] 2024-11-12 06:32:21.607 [main] CompiledPath - Evaluating path: $['bookingdates']['checkout']
+[INFO ] 2024-11-12 06:32:21.608 [main] ReportManager - Get response jsonvalue; bookingdates.checkout.
+[DEBUG] 2024-11-12 06:32:21.608 [main] CompiledPath - Evaluating path: $['additionalneeds']
+[INFO ] 2024-11-12 06:32:21.609 [main] ReportManager - Get response jsonvalue; additionalneeds.
+[DEBUG] 2024-11-12 06:32:21.614 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:21.614 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-12 06:32:21.614 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-12 06:32:21.621 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:21.621 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2024-11-12 06:32:22.193 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-12 06:32:22.194 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-12 06:32:22.194 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:22.194 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-12 06:32:22.194 [main] DefaultClientConnection - Sending request: GET /booking/352 HTTP/1.1
+[DEBUG] 2024-11-12 06:32:22.194 [main] wire -  >> "GET /booking/352 HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.194 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.194 [main] wire -  >> "Cookie: token=616f733fa2341c0[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.194 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.194 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.194 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.194 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.194 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.194 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.194 [main] headers - >> GET /booking/352 HTTP/1.1
+[DEBUG] 2024-11-12 06:32:22.194 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-11-12 06:32:22.194 [main] headers - >> Cookie: token=616f733fa2341c0
+[DEBUG] 2024-11-12 06:32:22.194 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-12 06:32:22.194 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2024-11-12 06:32:22.194 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-12 06:32:22.194 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-11-12 06:32:22.194 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-12 06:32:22.339 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385942&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7ubYcyyhUXZNL%2By4qvp6n71zRR4WPwWn%2Bn%2Fzcr5q%2FxA%3D"}]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385942&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7ubYcyyhUXZNL%2By4qvp6n71zRR4WPwWn%2Bn%2Fzcr5q%2FxA%3D[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "Content-Length: 169[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "Etag: W/"a9-WtCfH4ZFrPX1qSjidur3p3KhvHc"[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "Date: Tue, 12 Nov 2024 04:32:22 GMT[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-12 06:32:22.340 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << Server: Cowboy
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731385942&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7ubYcyyhUXZNL%2By4qvp6n71zRR4WPwWn%2Bn%2Fzcr5q%2FxA%3D"}]}
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731385942&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7ubYcyyhUXZNL%2By4qvp6n71zRR4WPwWn%2Bn%2Fzcr5q%2FxA%3D
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << X-Powered-By: Express
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << Content-Length: 169
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << Etag: W/"a9-WtCfH4ZFrPX1qSjidur3p3KhvHc"
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << Date: Tue, 12 Nov 2024 04:32:22 GMT
+[DEBUG] 2024-11-12 06:32:22.340 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2024-11-12 06:32:22.340 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-11-12 06:32:22.340 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-12 06:32:22.340 [main] wire -  << "{"firstname":"Fares","lastname":"Mohamed","totalprice":1200,"depositpaid":true,"bookingdates":{"checkin":"2019-01-01","checkout":"2020-01-01"},"additionalneeds":"Juice"}"
+[DEBUG] 2024-11-12 06:32:22.341 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@41962299
+[DEBUG] 2024-11-12 06:32:22.341 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-12 06:32:22.341 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-12 06:32:22.341 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-12 06:32:22.341 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/giga/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-12 06:32:22.343 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-12 06:32:22.344 [main] ReportManager - Actual response status code "200" matches the expected one "200".
+[INFO ] 2024-11-12 06:32:22.355 [main] ReportManager - Handle response; GET | Target Status Code: 200 | Response Time: 723ms.
+[DEBUG] 2024-11-12 06:32:22.355 [main] CompiledPath - Evaluating path: $['firstname']
+[INFO ] 2024-11-12 06:32:22.356 [main] ReportManager - Get response jsonvalue; firstname.
+[DEBUG] 2024-11-12 06:32:22.356 [main] CompiledPath - Evaluating path: $['lastname']
+[INFO ] 2024-11-12 06:32:22.356 [main] ReportManager - Get response jsonvalue; lastname.
+[DEBUG] 2024-11-12 06:32:22.357 [main] CompiledPath - Evaluating path: $['totalprice']
+[INFO ] 2024-11-12 06:32:22.357 [main] ReportManager - Get response jsonvalue; totalprice.
+[DEBUG] 2024-11-12 06:32:22.358 [main] CompiledPath - Evaluating path: $['depositpaid']
+[INFO ] 2024-11-12 06:32:22.358 [main] ReportManager - Get response jsonvalue; depositpaid.
+[DEBUG] 2024-11-12 06:32:22.358 [main] CompiledPath - Evaluating path: $['bookingdates']['checkin']
+[INFO ] 2024-11-12 06:32:22.359 [main] ReportManager - Get response jsonvalue; bookingdates.checkin.
+[DEBUG] 2024-11-12 06:32:22.359 [main] CompiledPath - Evaluating path: $['bookingdates']['checkout']
+[INFO ] 2024-11-12 06:32:22.360 [main] ReportManager - Get response jsonvalue; bookingdates.checkout.
+[DEBUG] 2024-11-12 06:32:22.360 [main] CompiledPath - Evaluating path: $['additionalneeds']
+[INFO ] 2024-11-12 06:32:22.360 [main] ReportManager - Get response jsonvalue; additionalneeds.
+[INFO ] 2024-11-12 06:32:22.362 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: UpdateBooking'
+[INFO ] 2024-11-12 06:32:22.362 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Finished Execution of Test Method: 'using_SHAFT_Engine.UpdatingBooking.UpdateBooking'                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-12 06:32:22.368 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-12 06:32:22.369 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-11-12 06:32:22.371 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20241112-063222'
+[INFO ] 2024-11-12 06:32:22.375 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
+[INFO ] 2024-11-12 06:32:22.376 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: engineTearDown'
+[INFO ] 2024-11-12 06:32:22.400 [main] ReportManager - ===============================================
+[INFO ] 2024-11-12 06:32:22.400 [main] ReportManager - Suite
+[INFO ] 2024-11-12 06:32:22.400 [main] ReportManager - Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+[INFO ] 2024-11-12 06:32:22.400 [main] ReportManager - ===============================================
+[INFO ] 2024-11-12 06:32:22.403 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           This test run was powered by [1mSHAFT v.8.4.20241024[22m                                           
+                               SHAFT [1;4mis and will always be 100% FREE[22;24m for commercial and private use                               
+                                                   in compliance with the [1mMIT license[22m                                                   
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-12 06:32:22.406 [main] ReportManager - Executing: "C:\Users\giga\.m2\repository\allure\allure-2.30.0/bin/allure.bat generate --single-file --clean 'allure-results' -o 'E:\Mohamed Tarek Embedded and Software Testing Diploma\Java Testing Workspace\SHAFTEngineTest\using_SHAFT_Engine\target\allure-report' --report-name 'Test run report'" locally.
+[INFO ] 2024-11-12 06:32:22.414 [] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         Test Execution Summary Results                                                         
+                                              Total Cases: 2 --> Passed: 2 | Failed: 0 | Skipped: 0                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-12 06:32:24.757 [main] ReportManager - Executing: ".\allure-report\2024-11-12_06-32-24-753_AllureReport.html" locally.
